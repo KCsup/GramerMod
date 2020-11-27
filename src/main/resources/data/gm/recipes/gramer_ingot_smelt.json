@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "gm:gramer_ore"
+  },
+  "result": "gm:gramer_ingot",
+  "experience": 0.0,
+  "cookingtime": 140
+}

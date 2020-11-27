@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gm:gramer_block"
+    }
+  ],
+  "result":
+  {
+    "item": "gm:gramer_ingot",
+    "count": 9
+  }
+}

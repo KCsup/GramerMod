@@ -1,3 +1,7 @@
 {
-  "item.gm.gramer_head" : "Gramer Head"
+  "item.gm.gramer_head" : "Gramer Head",
+  "item.gm.gramer_ingot" : "Gramer Ingot",
+  "block.gm.gramer_block" : "Block of Gramer",
+  "block.gm.gramer_ore" : "Gramer Ore",
+  "itemGroup.gmTab" : "Gramer Mod"
 }

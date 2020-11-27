@@ -2,6 +2,8 @@ package org.kcsup.gm;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -53,6 +55,13 @@ public class GramerMod {
         // do something that can only be done on the client
         LOGGER.info("Got game settings {}", event.getMinecraftSupplier().get().gameSettings);
     }
+
+    public static final ItemGroup TAB = new ItemGroup("gmTab") {
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(RegistryHandler.GRAMER_HEAD.get());
+        }
+    };
 
     private void enqueueIMC(final InterModEnqueueEvent event) {
         // some example code to dispatch IMC to another mod
